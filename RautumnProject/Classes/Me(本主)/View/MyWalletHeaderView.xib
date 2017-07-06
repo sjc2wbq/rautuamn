@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Lp6-d9-c93" customClass="MyWalletHeaderView" customModule="RautumnProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izx-JA-6CI">
+                    <rect key="frame" x="180" y="159" width="16" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hxQ-4l-oeS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目前镭秋币" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pi9-ad-chW">
+                    <rect key="frame" x="149" y="137" width="77" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="ylh-Mh-JDf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leiqiubi" highlightedImage="leiqiubi" translatesAutoresizingMaskIntoConstraints="NO" id="hqX-4j-nc2">
+                    <rect key="frame" x="137" y="39" width="102" height="84"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="102" id="NdS-kc-TZG"/>
+                        <constraint firstAttribute="height" constant="84" id="TvU-3S-MuY"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lb3-U9-nw5" customClass="AnimatableButton" customModule="IBAnimatable">
+                    <rect key="frame" x="8" y="200" width="359" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="dZ8-GH-fMt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                    <state key="normal" title="提现">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                            <color key="value" red="1" green="0.50980392159999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="withdrawalAction:" destination="Lp6-d9-c93" eventType="touchUpInside" id="uH2-lY-kPU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Pi9-ad-chW" firstAttribute="top" secondItem="hqX-4j-nc2" secondAttribute="bottom" constant="14" id="2S3-Pn-irw"/>
+                <constraint firstItem="Pi9-ad-chW" firstAttribute="centerX" secondItem="Izx-JA-6CI" secondAttribute="centerX" id="9Od-Nx-wNY"/>
+                <constraint firstItem="lb3-U9-nw5" firstAttribute="leading" secondItem="Lp6-d9-c93" secondAttribute="leading" constant="8" id="D0Q-Ul-DdA"/>
+                <constraint firstItem="hqX-4j-nc2" firstAttribute="centerX" secondItem="Pi9-ad-chW" secondAttribute="centerX" id="LaF-pl-Wqh"/>
+                <constraint firstAttribute="trailing" secondItem="lb3-U9-nw5" secondAttribute="trailing" constant="8" id="UXb-7I-qsW"/>
+                <constraint firstAttribute="bottom" secondItem="lb3-U9-nw5" secondAttribute="bottom" constant="20" id="Y3p-zW-dBg"/>
+                <constraint firstItem="lb3-U9-nw5" firstAttribute="top" secondItem="Izx-JA-6CI" secondAttribute="bottom" constant="20" id="lo8-wu-4wk"/>
+                <constraint firstItem="Izx-JA-6CI" firstAttribute="centerX" secondItem="lb3-U9-nw5" secondAttribute="centerX" id="t5r-vS-KH6"/>
+                <constraint firstItem="Izx-JA-6CI" firstAttribute="top" secondItem="Pi9-ad-chW" secondAttribute="bottom" constant="8" id="zLi-MS-Ej4"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="h" destination="dZ8-GH-fMt" id="Ney-iJ-oUM"/>
+                <outlet property="lb_gold" destination="Izx-JA-6CI" id="ReE-bh-8Cj"/>
+            </connections>
+            <point key="canvasLocation" x="45" y="49"/>
+        </view>
+        <tapGestureRecognizer id="gIq-ba-VfC">
+            <connections>
+                <action selector="loanAction:" destination="Lp6-d9-c93" id="rUf-TA-5CH"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="leiqiubi" width="66" height="66"/>
+    </resources>
+</document>

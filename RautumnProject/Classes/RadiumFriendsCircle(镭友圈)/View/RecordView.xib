@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RecordView" customModule="RautumnProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zA-oS-0u6">
+                    <rect key="frame" x="100" y="100" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="MyD-aH-mzH"/>
+                        <constraint firstAttribute="width" constant="100" id="U8z-KJ-mVS"/>
+                    </constraints>
+                    <state key="normal" image="recodStart"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击录音" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRg-Hy-VhS">
+                    <rect key="frame" x="113.5" y="50" width="73.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="03A-Uo-YRp"/>
+                        <constraint firstAttribute="width" constant="73.5" id="mFg-Ri-Eba"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Itp-4e-nMd">
+                    <rect key="frame" x="149.5" y="250" width="1" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="dBW-Yo-Fle"/>
+                        <constraint firstAttribute="height" constant="50" id="f3T-A4-CZg"/>
+                    </constraints>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCP-Mb-sCR">
+                    <rect key="frame" x="0.0" y="250" width="149.5" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.51372549019607838" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ONI-Xp-6Gg"/>
+                    </constraints>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2O5-zd-zUD">
+                    <rect key="frame" x="150.5" y="250" width="149.5" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.51372549019607838" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="tk4-w2-vcB"/>
+                    </constraints>
+                    <state key="normal" title="发送">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Itp-4e-nMd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="147-Mg-uRc"/>
+                <constraint firstAttribute="trailing" secondItem="2O5-zd-zUD" secondAttribute="trailing" id="AA3-Lw-WqI"/>
+                <constraint firstAttribute="bottom" secondItem="VCP-Mb-sCR" secondAttribute="bottom" id="Cfr-wp-wv4"/>
+                <constraint firstItem="5zA-oS-0u6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GVb-Ub-p8U"/>
+                <constraint firstItem="5zA-oS-0u6" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="IOe-E8-sNT"/>
+                <constraint firstItem="Itp-4e-nMd" firstAttribute="leading" secondItem="VCP-Mb-sCR" secondAttribute="trailing" id="Iol-3e-UeB"/>
+                <constraint firstAttribute="bottom" secondItem="Itp-4e-nMd" secondAttribute="bottom" id="Mrh-Bh-hTd"/>
+                <constraint firstItem="2O5-zd-zUD" firstAttribute="leading" secondItem="Itp-4e-nMd" secondAttribute="trailing" id="RzT-5E-joF"/>
+                <constraint firstAttribute="bottom" secondItem="2O5-zd-zUD" secondAttribute="bottom" id="U16-r6-bO9"/>
+                <constraint firstItem="dRg-Hy-VhS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Yv5-hi-vEy"/>
+                <constraint firstItem="dRg-Hy-VhS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="fgc-ap-MFt"/>
+                <constraint firstItem="VCP-Mb-sCR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zHS-AX-H3W"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelButton" destination="VCP-Mb-sCR" id="PGU-Hx-EBQ"/>
+                <outlet property="recordButton" destination="5zA-oS-0u6" id="YWJ-t7-ssf"/>
+                <outlet property="sendButton" destination="2O5-zd-zUD" id="uTD-sq-M2n"/>
+                <outlet property="titleLabel" destination="dRg-Hy-VhS" id="SYY-yH-f9e"/>
+            </connections>
+            <point key="canvasLocation" x="-10" y="-85"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="recodStart" width="124" height="124"/>
+    </resources>
+</document>

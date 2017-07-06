@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12113" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MeTableViewCell" customModule="RautumnProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallet" translatesAutoresizingMaskIntoConstraints="NO" id="XWd-0l-NeS">
+                        <rect key="frame" x="0.0" y="4" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="SHc-tS-Gzq"/>
+                            <constraint firstAttribute="width" constant="40" id="Tv8-zh-ME5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的镭秋钱包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxf-BA-atC">
+                        <rect key="frame" x="40" y="14" width="98" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="BVn-GS-oM7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba9-BT-Auk">
+                        <rect key="frame" x="292" y="14" width="20" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bXT-na-8R6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XWd-0l-NeS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YKC-5o-K5P"/>
+                    <constraint firstItem="Cxf-BA-atC" firstAttribute="leading" secondItem="XWd-0l-NeS" secondAttribute="trailing" id="YLo-eR-5oc"/>
+                    <constraint firstItem="XWd-0l-NeS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cVl-qX-JTc"/>
+                    <constraint firstItem="Ba9-BT-Auk" firstAttribute="centerY" secondItem="Cxf-BA-atC" secondAttribute="centerY" id="hyh-PK-HSk"/>
+                    <constraint firstAttribute="trailing" secondItem="Ba9-BT-Auk" secondAttribute="trailing" constant="8" id="mz9-r8-a9U"/>
+                    <constraint firstItem="Cxf-BA-atC" firstAttribute="centerY" secondItem="XWd-0l-NeS" secondAttribute="centerY" id="rt4-WV-5J8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="img_icon" destination="XWd-0l-NeS" id="Qd6-V5-avC"/>
+                <outlet property="lb_subTitle" destination="Ba9-BT-Auk" id="BEa-JC-U6j"/>
+                <outlet property="lb_title" destination="Cxf-BA-atC" id="2BC-Zz-mnd"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="wallet" width="22" height="22"/>
+    </resources>
+</document>

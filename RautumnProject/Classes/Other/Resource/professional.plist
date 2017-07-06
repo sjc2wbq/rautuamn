@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>全部</string>
+	<string>信息技术</string>
+	<string>互联网</string>
+	<string>IT</string>
+	<string>通信</string>
+	<string>电信运营</string>
+	<string>网络游戏</string>
+	<string>金融保险</string>
+	<string>投资</string>
+	<string>股票/基金</string>
+	<string>保险</string>
+	<string>银行</string>
+	<string>信托/担保</string>
+	<string>咨询</string>
+	<string>个体经营</string>
+	<string>美容美发</string>
+	<string>旅游</string>
+	<string>酒店餐饮</string>
+	<string>休闲娱乐</string>
+	<string>贸易</string>
+	<string>汽车</string>
+	<string>房地产</string>
+	<string>物业管理</string>
+	<string>装修/装潢</string>
+	<string>建筑</string>
+	<string>土木工程</string>
+	<string>机械制造</string>
+	<string>电子</string>
+	<string>生物医药</string>
+	<string>食品</string>
+	<string>服装</string>
+	<string>政府机关</string>
+	<string>能源</string>
+	<string>科研</string>
+	<string>公益</string>
+	<string>学生</string>
+	<string>无</string>
+	<string>航空</string>
+	<string>医疗</string>
+	<string>法律</string>
+	<string>教育</string>
+	<string>铁路</string>
+	<string>航运/船舶</string>
+	<string>物流运输</string>
+	<string>摄影</string>
+	<string>影视</string>
+	<string>运动体育</string>
+	<string>音乐</string>
+	<string>模特</string>
+	<string>媒体出版</string>
+	<string>设计</string>
+	<string>文化传播</string>
+	<string>广告创意</string>
+	<string>动漫</string>
+	<string>公关/会展</string>
+</array>
+</plist>

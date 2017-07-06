@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ddu-CC-wGJ" customClass="GroupInfoHeaderView" customModule="RautumnProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="243"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mWR-CW-iyA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="243"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wy5-o4-ueA" customClass="SDCycleScrollView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="243"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groupCover" highlightedImage="groupCover" translatesAutoresizingMaskIntoConstraints="NO" id="8Y2-cV-Dz7">
+                    <rect key="frame" x="0.0" y="153" width="375" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="sJE-UO-lnw"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大家一起来健身" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd8-n0-AC1">
+                    <rect key="frame" x="16" y="197" width="343" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="mbj-a0-7PJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wy5-o4-ueA" firstAttribute="leading" secondItem="ddu-CC-wGJ" secondAttribute="leading" id="0bD-xz-buD"/>
+                <constraint firstAttribute="bottom" secondItem="gd8-n0-AC1" secondAttribute="bottom" constant="25" id="4tW-Ur-Czj"/>
+                <constraint firstAttribute="bottom" secondItem="8Y2-cV-Dz7" secondAttribute="bottom" id="71g-x7-Ign"/>
+                <constraint firstItem="8Y2-cV-Dz7" firstAttribute="leading" secondItem="ddu-CC-wGJ" secondAttribute="leading" id="J2t-qc-b33"/>
+                <constraint firstAttribute="bottom" secondItem="wy5-o4-ueA" secondAttribute="bottom" id="a8Y-QA-2Pg"/>
+                <constraint firstItem="gd8-n0-AC1" firstAttribute="leading" secondItem="ddu-CC-wGJ" secondAttribute="leading" constant="16" id="dMd-pU-eBb"/>
+                <constraint firstAttribute="trailing" secondItem="wy5-o4-ueA" secondAttribute="trailing" id="kxS-pj-qVP"/>
+                <constraint firstAttribute="trailing" secondItem="gd8-n0-AC1" secondAttribute="trailing" constant="16" id="oTb-t6-Xrl"/>
+                <constraint firstItem="wy5-o4-ueA" firstAttribute="top" secondItem="ddu-CC-wGJ" secondAttribute="top" id="row-Zu-DYy"/>
+                <constraint firstAttribute="trailing" secondItem="8Y2-cV-Dz7" secondAttribute="trailing" id="wb6-XE-JZn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cycleScrollView" destination="wy5-o4-ueA" id="bYW-4I-os8"/>
+                <outlet property="lb_title" destination="gd8-n0-AC1" id="Tyv-q4-snh"/>
+                <outlet property="placeholderImageView" destination="mWR-CW-iyA" id="dZn-6W-lTP"/>
+            </connections>
+            <point key="canvasLocation" x="-226.5" y="-21.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="groupCover" width="414" height="64"/>
+    </resources>
+</document>

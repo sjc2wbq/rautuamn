@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12113" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="232" id="NpQ-lp-UOl" customClass="GroupActivityTableViewCell" customModule="RautumnProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NpQ-lp-UOl" id="JvL-fO-BFM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="updateVideoIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Nku-Zb-5dF">
+                        <rect key="frame" x="120" y="103" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="CYH-kF-17D"/>
+                            <constraint firstAttribute="width" constant="80" id="vBw-Zo-Zsq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上传活动封面(1张)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKx-Hi-yuB" customClass="AnimatableLabel" customModule="IBAnimatable">
+                        <rect key="frame" x="8" y="8" width="130" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="kUn-0U-AzX"/>
+                            <constraint firstAttribute="width" constant="130" id="oH4-bA-UfZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRF-Am-IVK" customClass="AnimatableButton" customModule="IBAnimatable">
+                        <rect key="frame" x="8" y="63" width="304" height="160"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.72156862749999995" green="0.76470588240000004" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="vcrAction:" destination="NpQ-lp-UOl" eventType="touchUpInside" id="fPr-bT-6s9"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJ3-83-a6G">
+                        <rect key="frame" x="8" y="49" width="304" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="height" id="VxU-Hg-Adq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nku-Zb-5dF" firstAttribute="centerY" secondItem="sRF-Am-IVK" secondAttribute="centerY" id="4bM-jO-WPN"/>
+                    <constraint firstItem="IJ3-83-a6G" firstAttribute="top" secondItem="bKx-Hi-yuB" secondAttribute="bottom" constant="8" id="Awu-un-B0T"/>
+                    <constraint firstItem="sRF-Am-IVK" firstAttribute="top" secondItem="IJ3-83-a6G" secondAttribute="bottom" constant="14" id="Mcw-vE-Buz"/>
+                    <constraint firstItem="Nku-Zb-5dF" firstAttribute="centerX" secondItem="sRF-Am-IVK" secondAttribute="centerX" id="N6l-5h-4Pa"/>
+                    <constraint firstAttribute="bottom" secondItem="sRF-Am-IVK" secondAttribute="bottom" constant="8" id="WF8-dL-lZ7"/>
+                    <constraint firstItem="IJ3-83-a6G" firstAttribute="leading" secondItem="JvL-fO-BFM" secondAttribute="leading" constant="8" id="egy-NB-fld"/>
+                    <constraint firstItem="bKx-Hi-yuB" firstAttribute="top" secondItem="JvL-fO-BFM" secondAttribute="top" constant="8" id="fi2-Wi-M0r"/>
+                    <constraint firstAttribute="trailing" secondItem="sRF-Am-IVK" secondAttribute="trailing" constant="8" id="g7A-Y3-jdQ"/>
+                    <constraint firstItem="bKx-Hi-yuB" firstAttribute="leading" secondItem="JvL-fO-BFM" secondAttribute="leading" constant="8" id="kja-zW-JJ0"/>
+                    <constraint firstAttribute="trailing" secondItem="IJ3-83-a6G" secondAttribute="trailing" constant="8" id="mVG-I9-P72"/>
+                    <constraint firstItem="sRF-Am-IVK" firstAttribute="leading" secondItem="JvL-fO-BFM" secondAttribute="leading" constant="8" id="yEg-Kg-L2K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="h" destination="VxU-Hg-Adq" id="tlL-pL-h4v"/>
+                <outlet property="w" destination="oH4-bA-UfZ" id="ySH-Ay-1Zs"/>
+            </connections>
+            <point key="canvasLocation" x="-79" y="121"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="updateVideoIcon" width="146" height="134"/>
+    </resources>
+</document>

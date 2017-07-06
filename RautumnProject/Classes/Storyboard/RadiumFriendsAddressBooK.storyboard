@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12113" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EFf-eT-FVp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--镭友录-->
+        <scene sceneID="Mek-bD-btb">
+            <objects>
+                <tableViewController title="镭友录" id="Crv-Vk-3Rk" customClass="RadiumFriendsAddressBooKViewController" customModule="RautumnProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="tmf-pa-GiK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QVs-Xr-eHA">
+                                <rect key="frame" x="0.0" y="56" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QVs-Xr-eHA" id="0Gx-bq-RNd">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Crv-Vk-3Rk" id="7Uj-Rg-Ko6"/>
+                            <outlet property="delegate" destination="Crv-Vk-3Rk" id="UMO-5b-Ne1"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="镭友录" id="aHI-KR-goF">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="FEz-tV-TGT"/>
+                        <barButtonItem key="rightBarButtonItem" image="addFriend" id="LNB-RM-7o7">
+                            <connections>
+                                <segue destination="VJF-2S-zTY" kind="show" id="sfP-pM-psO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mzJ-DE-fgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="262"/>
+        </scene>
+        <!--镭友录-->
+        <scene sceneID="NUG-om-g55">
+            <objects>
+                <navigationController title="镭友录" id="EFf-eT-FVp" customClass="NavigationController" customModule="RautumnProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a2c-Kc-Xrq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Crv-Vk-3Rk" kind="relationship" relationship="rootViewController" id="MSX-NI-wTI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="syt-3p-cOD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-844" y="263"/>
+        </scene>
+        <!--Find Friends View Controller-->
+        <scene sceneID="i2n-WW-wWm">
+            <objects>
+                <viewController id="VJF-2S-zTY" customClass="FindFriendsViewController" customModule="RautumnProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bZm-YV-ghf"/>
+                        <viewControllerLayoutGuide type="bottom" id="DeL-rn-UJD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vx0-5l-a9Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c1U-Mn-TMQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="VJF-2S-zTY" id="l49-BF-Ydo"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c1U-Mn-TMQ" firstAttribute="leading" secondItem="vx0-5l-a9Y" secondAttribute="leading" id="O0T-DJ-FW6"/>
+                            <constraint firstAttribute="trailing" secondItem="c1U-Mn-TMQ" secondAttribute="trailing" id="Z1m-Hf-MXI"/>
+                            <constraint firstItem="DeL-rn-UJD" firstAttribute="top" secondItem="c1U-Mn-TMQ" secondAttribute="bottom" id="asa-jG-qju"/>
+                            <constraint firstItem="c1U-Mn-TMQ" firstAttribute="top" secondItem="bZm-YV-ghf" secondAttribute="bottom" id="v0i-7A-zXq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="c1U-Mn-TMQ" id="UH9-Sa-BgG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R85-VC-dcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646" y="262"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="addFriend" width="22" height="22"/>
+    </resources>
+</document>

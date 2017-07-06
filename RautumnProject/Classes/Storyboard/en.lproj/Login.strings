@@ -1,0 +1,55 @@
+
+
+/* Class = "UIButton"; text = "我已阅读并同意"; ObjectID = "bfg-mv-gFj"; */
+"bfg-mv-gFj.normalTitle" = "I read and agree"
+
+/* Class = "UIButton"; text = "《用户协议》"; ObjectID = "OjG-Bm-4ZU"; */
+"OjG-Bm-gFj.normalTitle" = "\"user agreement""
+
+/* Class = "UIButton"; text = "我已阅读并同意"; ObjectID = "EWY-NZ-3Q3"; */
+"EWY-NZ-3Q3.normalTitle" = "I read and agree"
+
+/* Class = "UIButton"; text = "《用户协议》"; ObjectID = "7TH-Ue-LAd"; */
+"7TH-Ue-LAd.normalTitle" = "\"user agreement""
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "075-9O-av7"; */
+"075-9O-av7.placeholder" = "enter your password";
+
+/* Class = "UILabel"; text = "还没有账户？"; ObjectID = "49k-kg-Hb0"; */
+"49k-kg-Hb0.text" = "No account yet?";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "FdA-mf-fzF"; */
+"FdA-mf-fzF.normalTitle" = "next step";
+
+/* Class = "UITableViewController"; title = "注册"; ObjectID = "IdA-R8-BPh"; */
+"IdA-R8-BPh.title" = "register";
+
+/* Class = "UIButton"; normalTitle = "马上去登录"; ObjectID = "Jed-eY-JVp"; */
+"Jed-eY-JVp.normalTitle" = "sign on right now";
+
+/* Class = "UITextField"; placeholder = "请输入您的手机号"; ObjectID = "Jh2-86-aU8"; */
+"Jh2-86-aU8.placeholder" = "enter your phone number";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "LTJ-CT-JXc"; */
+"LTJ-CT-JXc.normalTitle" = "login";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "Lij-mC-WT4"; */
+"Lij-mC-WT4.placeholder" = "enter your password";
+
+/* Class = "UIButton"; normalTitle = "马上去注册"; ObjectID = "OCZ-s2-Cwf"; */
+"OCZ-s2-Cwf.normalTitle" = "go to register at once";
+
+/* Class = "UILabel"; text = "还没有账户？"; ObjectID = "Rbe-gz-p7m"; */
+"Rbe-gz-p7m.text" = "No account yet?";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "VQP-Xa-WUK"; */
+"VQP-Xa-WUK.placeholder" = "enter the verification code";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "e6W-GB-FEb"; */
+"e6W-GB-FEb.normalTitle" = "get verification code";
+
+/* Class = "UITextField"; placeholder = "请输入您的手机号"; ObjectID = "hbS-FY-2Ld"; */
+"hbS-FY-2Ld.placeholder" = "enter your phone number";
+
+/* Class = "UIButton"; normalTitle = "忘记密码？"; ObjectID = "r8G-1H-N2b"; */
+"r8G-1H-N2b.normalTitle" = "forget the password?";

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12113" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OccupationViewController" customModule="RautumnProject" customModuleProvider="target">
+            <connections>
+                <outlet property="leftTableView" destination="fvl-tg-aXJ" id="5vY-oc-J54"/>
+                <outlet property="rightTableView" destination="KOr-67-jsU" id="dPH-xD-smH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fvl-tg-aXJ">
+                    <rect key="frame" x="0.0" y="0.0" width="125" height="667"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="AhR-px-L3m"/>
+                        <outlet property="delegate" destination="-1" id="W2f-K7-U8O"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KOr-67-jsU">
+                    <rect key="frame" x="125" y="0.0" width="250" height="667"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Ki9-Oc-U5H"/>
+                        <outlet property="delegate" destination="-1" id="vYJ-iL-UJn"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fvl-tg-aXJ" firstAttribute="width" secondItem="KOr-67-jsU" secondAttribute="width" multiplier="0.5" id="56N-57-tDk"/>
+                <constraint firstAttribute="trailing" secondItem="KOr-67-jsU" secondAttribute="trailing" id="AXr-nR-bSY"/>
+                <constraint firstAttribute="bottom" secondItem="fvl-tg-aXJ" secondAttribute="bottom" id="IrU-ZK-1vM"/>
+                <constraint firstItem="fvl-tg-aXJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kbZ-QJ-W0X"/>
+                <constraint firstItem="KOr-67-jsU" firstAttribute="leading" secondItem="fvl-tg-aXJ" secondAttribute="trailing" id="osw-8P-1qf"/>
+                <constraint firstItem="KOr-67-jsU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pKX-wB-LJb"/>
+                <constraint firstAttribute="bottom" secondItem="KOr-67-jsU" secondAttribute="bottom" id="q6u-Rc-iT7"/>
+                <constraint firstItem="KOr-67-jsU" firstAttribute="leading" secondItem="fvl-tg-aXJ" secondAttribute="trailing" id="qCx-Lj-cqL"/>
+                <constraint firstItem="fvl-tg-aXJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vwT-UN-4bA"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

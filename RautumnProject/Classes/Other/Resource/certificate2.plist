@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>警察证</string>
+	<string>军人证</string>
+	<string>潜水证</string>
+	<string>导游资格证</string>
+	<string>中医师证</string>
+	<string>汽车驾驶证</string>
+	<string>飞机驾驶证</string>
+	<string>直升机驾驶证</string>
+	<string>轮船驾驶证</string>
+	<string>海员证</string>
+	<string>火车驾驶证</string>
+	<string>基金从业资格证</string>
+	<string>保险从业资格证</string>
+	<string>期货从业资格证</string>
+	<string>银行从业资格证</string>
+	<string>会计从业资格证</string>
+	<string>律师从业资格证</string>
+	<string>教师从业资格证</string>
+	<string>医师从业资格证</string>
+	<string>护士从业资格证</string>
+	<string>演艺经纪人许可证</string>
+	<string>证券从业资格证</string>
+	<string>精算师资格证</string>
+	<string>心理咨询师</string>
+	<string>人力资源管理师</string>
+	<string>理财规划师</string>
+	<string>景观设计师</string>
+	<string>建筑工程师</string>
+	<string>营养师</string>
+	<string>房地产评估师</string>
+	<string>旅游酒店管理师</string>
+	<string>企业培训师</string>
+	<string>广告设计师</string>
+	<string>英语四级证</string>
+	<string>英语六级证</string>
+	<string> 日语N1</string>
+	<string>日语N2</string>
+</array>
+</plist>

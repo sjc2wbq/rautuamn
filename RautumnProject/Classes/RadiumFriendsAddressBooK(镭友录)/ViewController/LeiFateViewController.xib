@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeiFateViewController" customModule="RautumnProject" customModuleProvider="target">
+            <connections>
+                <outlet property="btn_lei" destination="Wrk-SF-wJq" id="YzG-sX-axi"/>
+                <outlet property="btn_see" destination="fTF-u8-xgn" id="eYs-P5-kBH"/>
+                <outlet property="lb_leiCount" destination="YsZ-Ft-mcl" id="giA-am-Tvo"/>
+                <outlet property="siriWaveformVie2" destination="CHb-rK-Akd" id="RF4-wG-FMp"/>
+                <outlet property="siriWaveformVie3" destination="jmE-Ye-0OD" id="2jF-a3-9Kj"/>
+                <outlet property="siriWaveformView" destination="cXe-pN-IjQ" id="NkT-7N-arq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每天镭一下，缘分自然到~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5y-li-sYU">
+                    <rect key="frame" x="87" y="119" width="201" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="D6C-jw-jRk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTF-u8-xgn" customClass="AnimatableButton" customModule="IBAnimatable">
+                    <rect key="frame" x="70" y="525" width="84" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="Qf2-IR-WX5"/>
+                        <constraint firstAttribute="height" constant="33" id="oQf-e2-DiL"/>
+                    </constraints>
+                    <state key="normal" title="去看看">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="seeAction:" destination="-1" eventType="touchUpInside" id="Ijo-TM-hlT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="镭平台已为你找到 0 位镭友" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsZ-Ft-mcl">
+                    <rect key="frame" x="94" y="444" width="186" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="7pI-Nt-og7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wrk-SF-wJq" customClass="AnimatableButton" customModule="IBAnimatable">
+                    <rect key="frame" x="221" y="525" width="84" height="33"/>
+                    <state key="normal" title="继续镭">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="continueAction:" destination="-1" eventType="touchUpInside" id="hth-OL-Q15"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="findFriend_leiyf" translatesAutoresizingMaskIntoConstraints="NO" id="dfH-HP-Sah">
+                    <rect key="frame" x="57" y="170" width="260" height="260"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6a-e8-PG1" customClass="AnimatableView" customModule="IBAnimatable">
+                    <rect key="frame" x="67" y="180" width="240" height="240"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXe-pN-IjQ" customClass="SCSiriWaveformView">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="idleAmplitude">
+                                    <real key="value" value="0.10000000000000001"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="secondaryWaveLineWidth">
+                                    <real key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="primaryWaveLineWidth">
+                                    <real key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="waveColor">
+                                    <color key="value" red="1" green="0.50980392159999999" blue="0.0" alpha="0.50494970034246578" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CHb-rK-Akd" customClass="SCSiriWaveformView">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="idleAmplitude">
+                                    <real key="value" value="0.29999999999999999"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="secondaryWaveLineWidth">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="primaryWaveLineWidth">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="waveColor">
+                                    <color key="value" red="1" green="0.50980392159999999" blue="0.0" alpha="0.70031571061643838" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmE-Ye-0OD" customClass="SCSiriWaveformView">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="idleAmplitude">
+                                    <real key="value" value="0.20000000000000001"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="secondaryWaveLineWidth">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="primaryWaveLineWidth">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="waveColor">
+                                    <color key="value" red="1" green="0.50980392159999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="CHb-rK-Akd" firstAttribute="top" secondItem="E6a-e8-PG1" secondAttribute="top" id="2K6-Sp-Pc8"/>
+                        <constraint firstAttribute="bottom" secondItem="CHb-rK-Akd" secondAttribute="bottom" id="BRm-Mf-8bN"/>
+                        <constraint firstItem="cXe-pN-IjQ" firstAttribute="leading" secondItem="E6a-e8-PG1" secondAttribute="leading" id="DD9-HN-ipt"/>
+                        <constraint firstAttribute="trailing" secondItem="CHb-rK-Akd" secondAttribute="trailing" id="FJ7-CO-peR"/>
+                        <constraint firstAttribute="width" constant="240" id="O74-Io-575"/>
+                        <constraint firstAttribute="trailing" secondItem="cXe-pN-IjQ" secondAttribute="trailing" id="WIu-N8-5Cs"/>
+                        <constraint firstAttribute="trailing" secondItem="jmE-Ye-0OD" secondAttribute="trailing" id="ZoP-fZ-BdI"/>
+                        <constraint firstAttribute="bottom" secondItem="cXe-pN-IjQ" secondAttribute="bottom" id="dw6-fz-rgH"/>
+                        <constraint firstItem="jmE-Ye-0OD" firstAttribute="top" secondItem="E6a-e8-PG1" secondAttribute="top" id="hwc-gp-8k7"/>
+                        <constraint firstItem="cXe-pN-IjQ" firstAttribute="top" secondItem="E6a-e8-PG1" secondAttribute="top" id="iWO-Li-qXS"/>
+                        <constraint firstItem="CHb-rK-Akd" firstAttribute="leading" secondItem="E6a-e8-PG1" secondAttribute="leading" id="ssa-Ly-D51"/>
+                        <constraint firstItem="jmE-Ye-0OD" firstAttribute="leading" secondItem="E6a-e8-PG1" secondAttribute="leading" id="suf-wd-nze"/>
+                        <constraint firstAttribute="bottom" secondItem="jmE-Ye-0OD" secondAttribute="bottom" id="w5A-YP-vot"/>
+                        <constraint firstAttribute="height" constant="240" id="xbz-OL-Ybk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="120"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="1" green="0.50980392159999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wrk-SF-wJq" firstAttribute="centerY" secondItem="fTF-u8-xgn" secondAttribute="centerY" id="4VP-Lr-FpL"/>
+                <constraint firstItem="YsZ-Ft-mcl" firstAttribute="top" secondItem="E6a-e8-PG1" secondAttribute="bottom" constant="24" id="8az-00-40P"/>
+                <constraint firstItem="E6a-e8-PG1" firstAttribute="top" secondItem="R5y-li-sYU" secondAttribute="bottom" constant="40" id="Bhg-C8-QUT"/>
+                <constraint firstItem="dfH-HP-Sah" firstAttribute="leading" secondItem="E6a-e8-PG1" secondAttribute="leading" constant="-10" id="PoV-MK-iCr"/>
+                <constraint firstItem="Wrk-SF-wJq" firstAttribute="height" secondItem="fTF-u8-xgn" secondAttribute="height" id="R1v-RP-62c"/>
+                <constraint firstAttribute="trailing" secondItem="Wrk-SF-wJq" secondAttribute="trailing" constant="70" id="V03-fY-F5y"/>
+                <constraint firstItem="YsZ-Ft-mcl" firstAttribute="centerX" secondItem="E6a-e8-PG1" secondAttribute="centerX" id="WDO-pi-SIY"/>
+                <constraint firstItem="fTF-u8-xgn" firstAttribute="top" secondItem="YsZ-Ft-mcl" secondAttribute="bottom" constant="60" id="Y4o-u8-rZi"/>
+                <constraint firstItem="E6a-e8-PG1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.9" id="ZsI-GY-miB"/>
+                <constraint firstItem="Wrk-SF-wJq" firstAttribute="width" secondItem="fTF-u8-xgn" secondAttribute="width" id="abY-8K-Kwc"/>
+                <constraint firstItem="dfH-HP-Sah" firstAttribute="bottom" secondItem="E6a-e8-PG1" secondAttribute="bottom" constant="10" id="ayf-kR-GVY"/>
+                <constraint firstItem="fTF-u8-xgn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="70" id="jsE-On-3lS"/>
+                <constraint firstItem="R5y-li-sYU" firstAttribute="centerX" secondItem="E6a-e8-PG1" secondAttribute="centerX" id="o6i-aR-BLK"/>
+                <constraint firstItem="dfH-HP-Sah" firstAttribute="trailing" secondItem="E6a-e8-PG1" secondAttribute="trailing" constant="10" id="pH9-XK-arP"/>
+                <constraint firstItem="E6a-e8-PG1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tof-EN-UlA"/>
+                <constraint firstItem="dfH-HP-Sah" firstAttribute="top" secondItem="E6a-e8-PG1" secondAttribute="top" constant="-10" id="voK-gz-Nzf"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="findFriend_leiyf" width="329" height="329"/>
+    </resources>
+</document>

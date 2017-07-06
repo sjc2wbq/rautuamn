@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  RautumnProject
+
+  Created by 陈雷 on 2016/12/28.
+  Copyright © 2016年 Rautumn. All rights reserved.
+*/
+
+
+//标题
+LoginTitle = "镭秋登录";
+RegisterTitle = "镭秋注册";
+Register2Title = "完善资料";
+
+
+//完善资料
+//注册规则
+RegisterRule = "你的真诚换来的是真诚，你的心胸开阔换来的是别人对你的心胸开阔，这 就是我们的游戏规则。真诚的朋友，用心完善资料吧，我们好为你匹配朋 友，让你玩转镭友圈。";
+RegisterBasicData = "基本资料(必填)上传头像";
+CompleteRegistrationAndLogin = "完成注册并登录";
+IdentityAuthentication= "身份认证(可选)";
+
+RegisterNickName = "昵称";
+RegisterNickNamePlaceHolder = "6个字符以内";
+RegisterLanguage = "语言(可多选)";
+RegisterHeight = "身高";
+Constellation = "星座";
+Hobby = "爱好(必选、多选)";
+City = "常住城市(必选、单选)";
+Certificate = "证书(可选、多选)";
+Bir = "出生日期";
+RegisterChosePhotoMaxNumberTitle = "上传照片(可选，最多12张)";
+RegisterChosePhotoMaxNumber = "最多上传12张照片";
+
+Chinese = "中文";
+English = "英语";
+French = "法语";
+Spanish = "西班牙语";
+Portuguese = "葡萄牙语";
+Arabic = "阿拉伯语";
+Russian = "俄语";
+Japanese = "日语";
+Chinkoreanese = "韩语";
+
+Virgo = "处女座";
+Leo = "狮子座";
+Pisces = "双鱼座";
+Scorpio = "蝎子座";
+Capricorn = "魔羯座";
+Taurus = "金牛座";
+cancer = "巨蟹座";
+Gemini = "双子座";
+Libra = "天秤座";
+Aquarius = "水瓶座";
+Aries = "白羊座";
+sagittarius = "射手座";
+
+myVCR = "我的VCR(可选，不超过45秒)";
+ChoseHobby = "选择爱好";
+Chosecertificate = "选择证书";
+ToLandlord = "我做旅行地主(可选)";
+FindJob = "是否找工作(可选)";
+Hearsay = "你所擅长的技能(可填)";
+LifeMaxim = "输入您的人生格言";
+SeniorCattlePartyForExample = "例如资深黄牛党";
+//
+Motto = "座右铭";
+
+
+VCRExample = "例如你可以看着手机镜头说一句：我叫jake，我来自英国，希望在镭秋找 到中国朋友";
+
+
+NoEmpty = "不能为空";
+NickNameMax6Count = "最多输入6个字符";
+TextViewMax24Count = "最多输入24个字符";
+
+
+yes = "是";
+no = "否";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

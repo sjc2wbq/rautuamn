@@ -1,0 +1,103 @@
+/* 
+  Localizable.strings
+  RautumnProject
+
+  Created by 陈雷 on 2016/12/28.
+  Copyright © 2016年 Rautumn. All rights reserved.
+*/
+
+
+//标题
+LoginTitle = "Login";
+RegisterTitle = "Register";
+Register2Title = "Perfect Information";
+
+//完善资料
+//注册规则
+
+//你的真诚换来的是真诚，你的心胸开阔换来的是别人对你的心胸开阔，这 就是我们的游戏规则。真诚的朋友，用心完善资料吧，我们好为你匹配朋 友，让你玩转镭友圈。
+RegisterRule = "your sincere exchange is sincere, your open mind is in exchange for others to your open mind, this is our rules of the game. A sincere friend, just perfect information, good for you, our friends, let you play Leiyou ring.";
+//基本资料(必填)
+RegisterBasicData = "basic data (information)";
+//完成注册并登录
+CompleteRegistrationAndLogin = "Complete registration and login";
+//身份认证(可选)
+IdentityAuthentication= "Identity authentication (optional)";
+
+
+
+RegisterNickName = "nickName";
+RegisterNickNamePlaceHolder = "less than 6 characters";
+RegisterLanguage = "language (s)";
+RegisterHeight = "height";
+Constellation = "constellation";
+Hobby = "hobbies (required and more)";
+City = "city resident (required, radio)";
+Certificate = "professional certificate (optional, multiple-choice)";
+Bir = "Date of birth";
+
+RegisterChosePhotoMaxNumberTitle = "Upload photos (optional, up to 12)";
+RegisterChosePhotoMaxNumber = "Upload up to 12 photos";
+//"中文","英语","法语","西班牙语","葡萄牙语","阿拉伯语","俄语","日语","韩语"
+Chinese = "Chinese";
+English = "English";
+French = "French";
+Spanish = "Spanish";
+Portuguese = "Portuguese";
+Arabic = "Arabic";
+Russian = "Russian";
+Japanese = "Japanese";
+Chinkoreanese = "Chinkoreanese";
+
+//"处女座","狮子座","双鱼座","蝎子座","魔羯座","金牛座","巨蟹座","双子座","天秤座","水瓶座","白羊座","射手座"
+Virgo = "Virgo";
+Leo = "Leo";
+Pisces = "Pisces";
+Scorpio = "Scorpio";
+Capricorn = "Capricorn";
+Taurus = "Taurus";
+cancer = "Cancer";
+Gemini = "Gemini";
+Libra = "Libra";
+Aquarius = "Aquarius";
+Aries = "Aries";
+sagittarius = "Sagittarius";
+
+
+
+myVCR = "My VCR (must pass, no more than 45 seconds)";
+
+//请选择您的爱好
+ChoseHobby = "choose your hobby";
+//请选择您的专业证书
+Chosecertificate = "choose your certificate";
+//我做旅行地主(可选)
+ToLandlord = "I do travel (optional)";
+//是否找工作(可选)
+FindJob = "whether to look for a job (optional)";
+//你所擅长的技能(可填)
+Hearsay = "the skills (filling)";
+//输入您的人生格言
+LifeMaxim = "enter your life maxim";
+//例如资深黄牛党
+SeniorCattlePartyForExample = "Senior cattle party, for example";
+//座右铭
+Motto = "Motto";
+
+VCRExample = "For example, you can look at the mobile phone lens to say: my name is Jake, I come from the United Kingdom, hoping to find a friend in the autumn of China";
+
+
+
+NoEmpty = "can not be empty";
+NickNameMax6Count = "Field value must have less than 6 characters";
+TextViewMax24Count = "Field value must have less than 24 characters";
+
+
+yes = "YES";
+no = "NO";
+
+
+
+
+
+

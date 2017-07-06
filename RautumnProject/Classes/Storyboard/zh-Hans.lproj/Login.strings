@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; text = "我已阅读并同意"; ObjectID = "bfg-mv-gFj"; */
+"bfg-mv-gFj.normalTitle" = "我已阅读并同意"
+
+/* Class = "UIButton"; text = "《用户协议》"; ObjectID = "OjG-Bm-4ZU"; */
+"OjG-Bm-gFj.normalTitle" = "《用户协议》"
+
+/* Class = "UIButton"; text = "我已阅读并同意"; ObjectID = "EWY-NZ-3Q3"; */
+"EWY-NZ-3Q3.normalTitle" = "我已阅读并同意"
+
+/* Class = "UIButton"; text = "《用户协议》"; ObjectID = "7TH-Ue-LAd"; */
+"7TH-Ue-LAd.normalTitle" = "《用户协议》"
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "075-9O-av7"; */
+"075-9O-av7.placeholder" = "请输入密码";
+
+/* Class = "UILabel"; text = "还没有账户？"; ObjectID = "49k-kg-Hb0"; */
+"49k-kg-Hb0.text" = "还没有账户？";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "FdA-mf-fzF"; */
+"FdA-mf-fzF.normalTitle" = "下一步";
+
+/* Class = "UITableViewController"; title = "注册"; ObjectID = "IdA-R8-BPh"; */
+"IdA-R8-BPh.title" = "注册";
+
+/* Class = "UIButton"; normalTitle = "马上去登录"; ObjectID = "Jed-eY-JVp"; */
+"Jed-eY-JVp.normalTitle" = "马上去登录";
+
+/* Class = "UITextField"; placeholder = "请输入您的手机号"; ObjectID = "Jh2-86-aU8"; */
+"Jh2-86-aU8.placeholder" = "请输入您的手机号";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "LTJ-CT-JXc"; */
+"LTJ-CT-JXc.normalTitle" = "登录";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "Lij-mC-WT4"; */
+"Lij-mC-WT4.placeholder" = "请输入密码";
+
+/* Class = "UIButton"; normalTitle = "马上去注册"; ObjectID = "OCZ-s2-Cwf"; */
+"OCZ-s2-Cwf.normalTitle" = "马上去注册";
+
+/* Class = "UILabel"; text = "还没有账户？"; ObjectID = "Rbe-gz-p7m"; */
+"Rbe-gz-p7m.text" = "还没有账户？";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "VQP-Xa-WUK"; */
+"VQP-Xa-WUK.placeholder" = "请输入验证码";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "e6W-GB-FEb"; */
+"e6W-GB-FEb.normalTitle" = "获取验证码";
+
+/* Class = "UITextField"; placeholder = "请输入您的手机号"; ObjectID = "hbS-FY-2Ld"; */
+"hbS-FY-2Ld.placeholder" = "请输入您的手机号";
+
+/* Class = "UIButton"; normalTitle = "忘记密码？"; ObjectID = "r8G-1H-N2b"; */
+"r8G-1H-N2b.normalTitle" = "忘记密码？";

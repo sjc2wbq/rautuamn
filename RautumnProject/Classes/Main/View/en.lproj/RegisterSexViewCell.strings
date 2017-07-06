@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "性别"; ObjectID = "gUh-ao-gRF"; */
+"gUh-ao-gRF.text" = "gender";
+
+/* Class = "UIButton"; normalTitle = "男"; ObjectID = "lUH-xc-1Rv"; */
+"lUH-xc-1Rv.normalTitle" = "man";
+
+/* Class = "UIButton"; normalTitle = "女"; ObjectID = "zPX-ZV-dUh"; */
+"zPX-ZV-dUh.normalTitle" = "woman";

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>全部</string>
+	<string>读书</string>
+	<string>写作</string>
+	<string>跑步</string>
+	<string>文艺</string>
+	<string>潜水</string>
+	<string>冲浪</string>
+	<string>宠物</string>
+	<string>纹身</string>
+	<string>泡吧</string>
+	<string>动漫</string>
+	<string>话剧</string>
+	<string>美食</string>
+	<string>烘培</string>
+	<string>摄影</string>
+	<string>手工</string>
+	<string>收藏</string>
+	<string>书法</string>
+	<string>绘画</string>
+	<string>绿植</string>
+	<string>旅行</string>
+	<string>红酒</string>
+	<string>麻将</string>
+	<string>自驾</string>
+	<string>游戏</string>
+	<string>汽车</string>
+	<string>逛街</string>
+	<string>唱歌</string>
+	<string>二次元</string>
+	<string>桌游</string>
+	<string>看剧</string>
+	<string>运动</string>
+	<string>历史</string>
+	<string>建筑</string>
+	<string>电影</string>
+	<string>跆拳道</string>
+	<string>垂钓</string>
+	<string>骑行</string>
+	<string>台球</string>
+	<string>露营</string>
+	<string>爬山</string>
+	<string>射箭</string>
+	<string>滑板</string>
+	<string>滑雪</string>
+	<string>乒乓球</string>
+	<string>舞蹈</string>
+	<string>戏曲</string>
+	<string>音乐</string>
+	<string>足球</string>
+	<string>徒步</string>
+	<string>高尔夫</string>
+	<string>羽毛球</string>
+	<string>街舞</string>
+	<string>网球</string>
+	<string>篮球</string>
+	<string>棋牌</string>
+	<string>健身</string>
+	<string>拳击</string>
+	<string>瑜伽</string>
+</array>
+</plist>

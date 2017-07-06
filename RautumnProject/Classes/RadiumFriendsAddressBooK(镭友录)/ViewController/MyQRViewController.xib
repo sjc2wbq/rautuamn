@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyQRViewController" customModule="RautumnProject" customModuleProvider="target">
+            <connections>
+                <outlet property="img_code" destination="waQ-XV-LaT" id="wEy-ZJ-qRt"/>
+                <outlet property="img_qr" destination="gBZ-Kb-7dL" id="sWW-ig-bz6"/>
+                <outlet property="img_qr_h" destination="SRw-jz-tsP" id="vEW-hg-gSc"/>
+                <outlet property="userInfoView" destination="TDj-QA-4ha" id="frm-tO-zx7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRs-16-juX" customClass="AnimatableView" customModule="IBAnimatable">
+                    <rect key="frame" x="20" y="60" width="335" height="433"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gBZ-Kb-7dL">
+                            <rect key="frame" x="30" y="118" width="275" height="250"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="250" id="SRw-jz-tsP"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="扫一扫上面的二维码，加我为好友。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtn-av-jrl">
+                            <rect key="frame" x="0.0" y="384" width="335" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="OkP-hW-loZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="0.88968857020547942" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDj-QA-4ha">
+                            <rect key="frame" x="25" y="33" width="285" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="eOe-5I-DFK"/>
+                            </constraints>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_distance" translatesAutoresizingMaskIntoConstraints="NO" id="waQ-XV-LaT" customClass="AnimatableImageView" customModule="IBAnimatable">
+                            <rect key="frame" x="127" y="203" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="fB6-a3-2Iv"/>
+                                <constraint firstAttribute="height" constant="80" id="gwS-5I-X0d"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="TDj-QA-4ha" firstAttribute="top" secondItem="gRs-16-juX" secondAttribute="top" constant="33" id="03l-oA-7Px"/>
+                        <constraint firstAttribute="bottom" secondItem="dtn-av-jrl" secondAttribute="bottom" constant="28" id="2sb-Nj-wym"/>
+                        <constraint firstItem="waQ-XV-LaT" firstAttribute="centerY" secondItem="gBZ-Kb-7dL" secondAttribute="centerY" id="KUK-tH-IT7"/>
+                        <constraint firstAttribute="trailing" secondItem="gBZ-Kb-7dL" secondAttribute="trailing" constant="30" id="KXO-DQ-Zxk"/>
+                        <constraint firstItem="dtn-av-jrl" firstAttribute="top" secondItem="gBZ-Kb-7dL" secondAttribute="bottom" constant="16" id="LDL-qW-0fF"/>
+                        <constraint firstAttribute="trailing" secondItem="TDj-QA-4ha" secondAttribute="trailing" constant="25" id="LTM-ue-W7k"/>
+                        <constraint firstItem="dtn-av-jrl" firstAttribute="leading" secondItem="gRs-16-juX" secondAttribute="leading" id="eUQ-gv-8Iu"/>
+                        <constraint firstItem="gBZ-Kb-7dL" firstAttribute="top" secondItem="TDj-QA-4ha" secondAttribute="bottom" constant="5" id="ee2-kZ-M45"/>
+                        <constraint firstAttribute="trailing" secondItem="dtn-av-jrl" secondAttribute="trailing" id="gYe-pL-DS2"/>
+                        <constraint firstItem="waQ-XV-LaT" firstAttribute="centerX" secondItem="gBZ-Kb-7dL" secondAttribute="centerX" id="id9-h9-CHw"/>
+                        <constraint firstItem="TDj-QA-4ha" firstAttribute="leading" secondItem="gRs-16-juX" secondAttribute="leading" constant="25" id="mN7-A3-SIh"/>
+                        <constraint firstAttribute="bottom" secondItem="dtn-av-jrl" secondAttribute="bottom" constant="28" id="sur-iB-A8d"/>
+                        <constraint firstItem="gBZ-Kb-7dL" firstAttribute="leading" secondItem="gRs-16-juX" secondAttribute="leading" constant="30" id="tKS-rk-kXI"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="gRs-16-juX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="TRV-Ms-hJd"/>
+                <constraint firstItem="gRs-16-juX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="cCG-2p-XoN"/>
+                <constraint firstAttribute="trailing" secondItem="gRs-16-juX" secondAttribute="trailing" constant="20" id="rPc-th-GAk"/>
+            </constraints>
+            <point key="canvasLocation" x="-31" y="-107"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="me_distance" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VxD-QY-WL4"; */
+"VxD-QY-WL4.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "例如你可以看着手机镜头说一句：我叫jake，我来自英国，希望在镭秋找 到中国朋友"; ObjectID = "bNB-VX-1pG"; */
+"bNB-VX-1pG.text" = "For example, you can look at the mobile phone lens to say: my name is Jake, I come from the United Kingdom, hoping to find a friend in the autumn of China";
+
+/* Class = "UILabel"; text = "我的VCR(必传，不超过45秒)"; ObjectID = "raB-tC-A1g"; */
+"raB-tC-A1g.text" = "My VCR (optional, no more than 45 seconds)";
